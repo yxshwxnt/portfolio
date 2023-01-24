@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #2b2b2cbf; 
+    position: absolute;
+    bottom: auto;
+    top: 72px;
+    left: auto; 
+    right: 201px;    
+    width: max-content;
+    border-radius: 0 20px;
+    box-shadow: none;
+}
+.navbar ul{
+    list-style: none; 
+    display: flex;
+    gap: 30px;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+.navbar li{
+    cursor: pointer;
+}
