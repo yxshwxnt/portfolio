@@ -9,10 +9,10 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <ul> 
-        <li><Link to='/about' />About</li>
-        <li><Link to='/resume' />Resume</li>
-        <li><Link to='/portfolio'></Link> Portflio</li>
-        <li><Link to='/contact'></Link> Contact</li>
+        <li><Link to='/about'>About</Link></li>
+        <li><Link to='/resume'>Resume</Link></li>
+        <li><Link to='/portfolio'>Portflio</Link></li>
+        <li><Link to='/contact'>Contact</Link></li>
       </ul>
     </nav>
   )

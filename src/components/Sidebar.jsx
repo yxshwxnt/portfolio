@@ -7,7 +7,7 @@ const Sidebar = () => {
       <div className="upperpart">
         <img src="./avatar.png" alt="" /> 
         <h3 className='name'>YASHWANT LALWANI</h3>
-        <span>Web Dev | BlockChain Dev</span>
+        <span>Web Developer | Student</span>
       </div>
       <hr />
       <ul className="lowerpart">

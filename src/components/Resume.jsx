@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     <> 
     <div className='header'>
-      <Timeline head='education' p1='' p2='if you see us ' p3=''/>
+      <Timeline head='education' p1='' p2='test ' p3=''/>
       <Timeline head='Experience' p1='' p2='' p3=''/>
     </div>
     <div className="skills">

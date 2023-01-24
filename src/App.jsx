@@ -22,11 +22,11 @@ function App() {
       <Router> 
           <Navbar/>
           <Routes> 
-            <Route   path='/' element={<About />}/>
+            <Route  path='/' element={<About />}/>
             <Route  path='/about' element={<About />}/>
             <Route  path='resume' element={<Resume />} />
-            <Route   path='portfoilio' element={<Portfolio />} /> 
-            <Route   path='/contact' element={<Contact />} /> 
+            <Route  path='portfoilio' element={<Portfolio />} /> 
+            <Route  path='/contact' element={<Contact />} /> 
           </Routes>
       </Router>
       </div>
