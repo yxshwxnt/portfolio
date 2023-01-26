@@ -18,6 +18,12 @@
     justify-content: center;
     align-items: center;
 } 
-.navbar li{
+.navbar li, a{
+    color: azure;
     cursor: pointer;
-}
+    text-decoration: none;
+} 
+
+.header-link-active{ 
+    color: rgb(140, 140, 253);
+} 

@@ -33,4 +33,9 @@ i{
     justify-content: center;
     padding-right: 34px;
     padding-left: 23px;
-}
+} 
+.btn{
+    border-radius: 23px; 
+    margin-bottom: 5vh;
+    background-color: #8c8cfd;
+} 

@@ -1,5 +1,6 @@
 import React from 'react'
-import './sidebar.css'
+import './sidebar.css' 
+import Button from 'react-bootstrap/Button';
 
 const Sidebar = () => {
   return (
@@ -7,12 +8,12 @@ const Sidebar = () => {
       <div className="upperpart">
         <img src="./avatar.png" alt="" /> 
         <h3 className='name'>YASHWANT LALWANI</h3>
-        <span>Web Developer | Student</span>
+        <span>Full Stack Developer</span>
       </div>
       <hr />
       <ul className="lowerpart">
         <li className="mail flexx">
-          <i className="fa-solid fa-envelope"></i>
+        <i className="fa-brands fa-linkedin"></i>
           <li className='col'>
             <h2>EMAIL</h2>
             <p>mail@gmail.com</p>
@@ -26,23 +27,21 @@ const Sidebar = () => {
           </li>
         </li>
         <li className="bday flexx">
-          <i className="fa-solid fa-calendar-day"></i>
+        <i className="fa-brands fa-instagram"></i>
           <li className='col'>
             <h2>BIRTHDAY</h2>
             <p>1/1/22</p>
           </li>
         </li>
         <li className="Lloc flexx">
-          <i className="fa-solid fa-location-dot"></i>
+        <i className="fa-brands fa-github"></i>
           <li className='col'>
             <h2>LOCATION</h2>
             <p>Nagpur</p>
           </li>
         </li>
-        <i className="fa-brands fa-github"></i>
-        <i className="fa-brands fa-instagram"></i>
-        <i className="fa-brands fa-linkedin"></i>
-      </ul>
+      </ul> 
+      <Button variant="primary" className='btn'>Download Resume</Button>{' '}
     </div>
   )
 }

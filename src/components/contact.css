@@ -1,0 +1,42 @@
+.gmap{
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+} 
+.gmap iframe{
+    border-radius: 21px;
+} 
+.input-wrapper{
+    display: flex;   
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.form-input{
+    color: grey;
+    font-size: 15px;
+    background-color: #1e1e1f;
+    border: 1px solid hsl(0, 0%, 22%);
+    border-radius: 14px;
+    padding: 15px 20px;
+} 
+input{
+    width: 23vw;
+    height: 11h;
+} 
+textarea {
+    margin: 19px 30px;
+    margin-left: 61px;
+    width: 50.5vw;
+    height: 21vh;
+}  
+.form-btn{
+    margin-left: 40.1vw; 
+    background: #8c8cfd;
+    height: 8vh; 
+    text-align: justify; 
+    /* padding-bottom: 45px; */
+    width: 14vw;
+    margin-bottom: 2vw; 
+    border-radius: 14px;
+}

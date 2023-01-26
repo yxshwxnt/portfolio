@@ -12,7 +12,10 @@
   box-shadow: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 }
 .side{  
-  background-color: #1e1e1f;
+  background-color: #1e1e1f; 
+  height: 100%;
+  height: max-content;
+  position: sticky;
   color: white;
   width: 17vw;
   margin-left: 10vw;
@@ -26,6 +29,15 @@
   width: 58vw; 
 } 
 .main p, h1, h2, h3{ 
-  padding-left: 21px;
-  padding-right: 25px;
+  padding-left: 26px;
+  padding-right: 55px;
+}  
+.main h1{
+  font-weight: bolder;
+} 
+.main h2,h3{
+  font-weight: bold; 
+}
+.main p{
+  color: #d6d6d6;
 }

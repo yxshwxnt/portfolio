@@ -5,14 +5,15 @@ import {
   Link,
 } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = () => { 
+  const pathName=window.location.pathname; 
   return (
     <nav className='navbar'>
       <ul> 
-        <li><Link to='/about'>About</Link></li>
-        <li><Link to='/resume'>Resume</Link></li>
-        <li><Link to='/portfolio'>Portflio</Link></li>
-        <li><Link to='/contact'>Contact</Link></li>
+        <li><Link to='/' className={pathName==='/' ? "header-link-active": "header-link" }>About</Link></li>
+        <li><Link to='/resume' className={pathName==='/resume' ? "header-link-active": "header-link"}>Resume</Link></li>
+        <li><Link to='/portfolio' className={pathName==='/portfolio' ? "header-link-active": "header-link"}>Portflio</Link></li>
+        <li><Link to='/contact' className={pathName==='/contact' ? "header-link-active": "header-link"}>Contact</Link></li>
       </ul>
     </nav>
   )
