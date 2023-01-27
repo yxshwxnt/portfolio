@@ -10,7 +10,7 @@ const Contact = () => {
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14512.970682784187!2d79.09839529999999!3d21.1809986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1674645994160!5m2!1sen!2sin" width="875" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
     <div className="contact-form">
-      <h3>Contact</h3> 
+      <h3>Contact Form</h3> 
     </div> 
     <form action="#" className="form" data-form="">
             <div className="input-wrapper">

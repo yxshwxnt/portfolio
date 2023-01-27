@@ -1,10 +1,14 @@
 import React from 'react'
+import { Box } from '@mui/material' 
+
 
 const Portfolio = () => {
-  return (
-    <div>
-      <h2>This is Portfolio</h2>
-    </div>
+  return ( 
+    <>
+    <Box>
+      <h1>Portfolio</h1>
+    </Box>
+    </>
   )
 }
 

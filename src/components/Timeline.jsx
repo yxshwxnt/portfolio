@@ -5,36 +5,55 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot'; 
-import PropTypes from 'prop-types'; 
+import { Typography } from '@mui/material';
+import BookIcon from '@mui/icons-material/Book';
+import BadgeIcon from '@mui/icons-material/Badge';
+import PropTypes from 'prop-types';  
+import './resume.css'; 
 
 export default function BasicTimeline(props) {
   return (
-    <Timeline>
-      <TimelineItem>
+    <Timeline className='tline'>
+      {/* Item header   */}
+      <TimelineItem className={'timeline-first'}> 
         <TimelineSeparator>
-          <TimelineDot />
+          <TimelineDot className={'timeline-first-dot'}><BookIcon/></TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>{props.head}</TimelineContent>
+        <TimelineContent><Typography variant="h6" className='timeline-header'><h3>{props.head}</h3></Typography></TimelineContent>
       </TimelineItem>
+
+      {/* Item Normal   */}
       <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
+        <TimelineSeparator  className={"seperator-padding"}>
+          <TimelineDot className={'timeline-dot'}></TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>{props.p1}</TimelineContent>
+        <TimelineContent>
+          {props.p1} <br />
+          {props.year1} <br />
+          {props.branch1} <br />
+          </TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot />
+          <TimelineDot className={'timeline-dot'}></TimelineDot>
+          <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>{props.p2}</TimelineContent>
+        <TimelineContent>
+          {props.p2} <br />
+          {props.year2} <br />
+          {props.branch2}
+          </TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot />
+          <TimelineDot className={'timeline-dot'}></TimelineDot>
         </TimelineSeparator>
-        <TimelineContent>{props.p3}</TimelineContent>
+        <TimelineContent>
+          {props.p3} <br />
+          {props.year3}
+          </TimelineContent>
       </TimelineItem>
     </Timeline>
   );

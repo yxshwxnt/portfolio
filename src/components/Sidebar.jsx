@@ -10,7 +10,7 @@ const Sidebar = () => {
         <h3 className='name'>YASHWANT LALWANI</h3>
         <span>Full Stack Developer</span>
       </div>
-      <hr />
+      <hr /> 
       <ul className="lowerpart">
         <li className="mail flexx">
         <i className="fa-brands fa-linkedin"></i>
