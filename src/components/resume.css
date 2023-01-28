@@ -4,6 +4,10 @@
     margin-left: 2vw;  
     margin-bottom: 3rem;
 }  
+.tline para{
+    color: #8c8cfd;
+    padding-bottom: 0px;
+}
 .tline .timeline-first-dot{
     background-color: #8c8cfd;
 }

@@ -1,6 +1,17 @@
 .upperpart img{
-    width: 4%;
+    width: 97%;
 }  
+.name{
+    padding-left: 59px;
+    padding-bottom: 10px;
+}
+.image-box{
+    background:  linear-gradient( to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97% );
+    width: 82%;
+    margin: 1.6rem;
+    align-items: center;
+    border-radius: 30px;
+}
 ul{
     list-style: none;
 }
@@ -18,6 +29,7 @@ h2{
 .col{
     text-align: left;
     gap: 5px;
+    padding-top: 0.8rem;
 }  
 .col p{
     font-size: small; 
@@ -34,8 +46,19 @@ i{
     padding-right: 34px;
     padding-left: 23px;
 } 
+.lowerbox ul{
+    text-align: left;
+    padding-left: 0rem;
+}
+
 .btn{
     border-radius: 23px; 
+    cursor: pointer;
+    margin-top: 2vh;
     margin-bottom: 5vh;
-    background-color: #8c8cfd;
-} 
+    background-color: #8c8cfd; 
+}  
+.btn a:hover{
+    color: aliceblue;
+    /* background-color:azure;  */
+}

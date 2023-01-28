@@ -1,3 +1,5 @@
+/* ver --bs-border-radius: 1.375rem;  */
+
 .app {
   text-align: center; 
   display: flex; 
@@ -7,8 +9,17 @@
   background-color: #121212;
   color: white;
 } 
+.bluehr{
+  width: 80px;
+  height: 7px;
+  background-color: #8c8cfd;
+  margin-left: 9px;
+  border-radius: 23px;
+  margin-bottom: 1.5rem;
+}
 .rounded{
-  border-radius: 20px;
+  border-radius: 1.375rem; 
+  border-radius: var( 1.375rem) !important; 
   box-shadow: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 }
 .side{  
@@ -17,8 +28,9 @@
   height: max-content;
   position: sticky;
   color: white;
-  width: 17vw;
-  margin-left: 10vw;
+  width: 19vw;
+  margin-left: 10vw; 
+  margin-bottom: 5rem;
 }
 .main{ 
   padding-top: 45px;

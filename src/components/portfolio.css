@@ -1,0 +1,38 @@
+.main-box{
+    display: grid;
+    text-align: left; 
+    margin-left: 2vw;  
+    margin-bottom: 3rem;
+}  
+.container{
+    padding-top: 26px;
+} 
+.project{
+    display: flex;
+    padding-bottom: 3rem;
+    justify-content: space-evenly;
+} 
+.project h3{
+    color: #8c8cfd;
+}
+.image img{
+    border-radius: 16px;
+}
+.image img:hover{
+    background-color: grey;
+    width: 101%;
+    cursor: pointer;
+    transition:cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.landing-img{
+    width: 93%;
+    height: 101%;
+} 
+.wc22{
+    width: 93%;
+    height: 101%;
+}
+.inote{
+    width: 93%;
+    height: 101%;
+}

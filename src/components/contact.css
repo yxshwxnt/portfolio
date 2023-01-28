@@ -1,3 +1,9 @@
+.main-box{
+    display: grid;
+    text-align: left; 
+    margin-left: 2vw;  
+    margin-bottom: 3rem;
+}  
 .gmap{
     padding: 25px;
     align-items: center;
@@ -5,7 +11,7 @@
     justify-content: center;
 } 
 .gmap iframe{
-    border-radius: 21px;
+    border-radius: 19px;
 } 
 .input-wrapper{
     display: flex;   
@@ -26,10 +32,16 @@ input{
 } 
 textarea {
     margin: 19px 30px;
-    margin-left: 61px;
-    width: 50.5vw;
+    margin-left: 51px;
+    width: 49.5vw;
     height: 21vh;
-}  
+}   
+form{
+    padding-top: 1.5rem;
+} 
+.contact-form{
+    padding-top: 1.5rem;
+}
 .form-btn{
     margin-left: 40.1vw; 
     background: #8c8cfd;

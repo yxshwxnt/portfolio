@@ -9,6 +9,7 @@ const Resume = () => {
     <>
       <Box className="main-box">
         <h1>Resume</h1>
+        <div className="bluehr"></div>
         <div className="header">
           <Timeline
             head="Education"

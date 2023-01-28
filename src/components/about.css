@@ -1,6 +1,24 @@
 .textarea{ 
-    padding-left: 21px;
+    padding-left: 2vw;
     padding-left: 25px;
+}
+.main-box{
+    display: grid;
+    text-align: left; 
+    margin-left: 1vw;  
+    margin-bottom: 3rem;
+}  
+.main-box h1,p,h3,h2,h5{
+    padding-left: 9px;
+}
+.header p{
+    padding-left: 9px;
+}
+.what p{
+    padding-left: 9px;
+}
+.what h5{
+    color: #8c8cfd;
 }
 .service-list{
     grid-template-columns: 1fr 1fr;
@@ -9,4 +27,24 @@
 .service-item{
     background-color: #2b2b2c;
     border-radius: inherit;
+} 
+.what{
+    padding-top: 19px; 
 }
+.tline .timeline-dot{
+    background-color: #8c8cfd;
+} 
+.interest ul{
+    padding-left: 3px;
+}
+.button{
+    width: 15%; 
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* .interest .int-li .{
+    
+} */

@@ -31,7 +31,7 @@ export default function BasicTimeline(props) {
         </TimelineSeparator>
         <TimelineContent>
           {props.p1} <br />
-          {props.year1} <br />
+          <para>{props.year1}</para><br />
           {props.branch1} <br />
           </TimelineContent>
       </TimelineItem>
@@ -42,7 +42,7 @@ export default function BasicTimeline(props) {
         </TimelineSeparator>
         <TimelineContent>
           {props.p2} <br />
-          {props.year2} <br />
+          <para>{props.year2}</para><br />
           {props.branch2}
           </TimelineContent>
       </TimelineItem>
@@ -52,7 +52,7 @@ export default function BasicTimeline(props) {
         </TimelineSeparator>
         <TimelineContent>
           {props.p3} <br />
-          {props.year3}
+          <para>{props.year3}</para>
           </TimelineContent>
       </TimelineItem>
     </Timeline>
